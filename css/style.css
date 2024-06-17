@@ -79,20 +79,26 @@ footer {
   padding-bottom: 5px;
 }
 @media screen and (max-width: 992px){
+  
   .box{
-   flex-wrap: wrap;
+   
    flex-direction: row;
+   background-color: red;
   }
    .lg-view{
     display:none;
  }
  .sm-view{
     display:inline-block;
+    
  }
 
   }
 
 @media screen and (max-width: 768px){
+  header{
+    background-color: #8a0d0d;
+  }
  .box{
   flex-wrap: wrap;
   flex-direction: column;
