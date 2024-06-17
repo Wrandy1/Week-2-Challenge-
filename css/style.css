@@ -83,7 +83,7 @@ footer {
   .box{
    
    flex-direction: row;
-   background-color: red;
+ 
   }
    .lg-view{
     display:none;
