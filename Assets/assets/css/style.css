@@ -37,13 +37,13 @@ nav a:hover {
 }
 #box-2{
   background-image: url(https://picsum.photos/800/800);
-  width: 600px;
-  height: 600px;
+  width: 450px;
+  height: 450px;
 }
 #box-3{
   background-image: url(https://picsum.photos/850/850);
-  width: 600px;
-  height: 600px;
+  width: 450px;
+  height: 450px;
 }
 h3{
   font-style: italic;
@@ -81,6 +81,7 @@ footer {
 @media screen and (max-width: 992px){
   .box{
    flex-wrap: wrap;
+   flex-direction: row;
   }
    .lg-view{
     display:none;
@@ -88,12 +89,13 @@ footer {
  .sm-view{
     display:inline-block;
  }
+
   }
 
 @media screen and (max-width: 768px){
-  
  .box{
   flex-wrap: wrap;
+  flex-direction: column;
  }
   .lg-view{
     display:none;
